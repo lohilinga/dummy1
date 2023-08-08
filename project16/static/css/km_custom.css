@@ -1,0 +1,36 @@
+
+        body{
+            background-color: yellow;
+        }
+        .center{
+               text-align: center;
+        }
+        #tab{
+              /* border: 2px solid black;  */
+              border-collapse: collapse;
+              width: 100%;
+        }
+        .left{
+            text-align: left;
+        }
+        .a{
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 10px;
+            width: 100px;
+        }
+        .b{
+            background-color: aliceblue;
+            border-radius: 10px;
+            border-color: blue;
+            width: 100px; ;
+        }
+        .c{
+            background-color:darkkhaki;
+            border-radius: 10px;
+            width: 100px;
+
+        }
+        
+        
+    

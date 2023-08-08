@@ -1,0 +1,43 @@
+body{
+    background-color: darkgoldenrod;
+ }
+.java{
+    background-color:saddlebrown;
+    padding: 10px;
+    text-align: center;
+    color: coral;
+}
+.text{
+    background-color: darkorange;
+    position: relative;
+    top: -20px;
+    width: 200px;
+    height: 520px;
+    text-align: center;
+}
+.right{
+    background-color: wheat;
+    position: relative;
+    width: 84%;
+    height: 520px;
+    left: 200px;
+    top: -561px; 
+}
+.l{
+    margin-left: 20px;
+}
+#t{
+    position: relative;
+    top: 20px;
+}
+.end{
+    background-color:saddlebrown;
+    position: relative;
+    top: -578px;
+    padding: 10px;
+}
+#center{
+    text-align: center;
+    position: relative;
+    top: -15px;
+}

@@ -1,0 +1,59 @@
+header{
+    background-color: mediumblue;
+    height: 70px;
+    
+}
+header>div{
+    font-size: 30px;
+    color: white;  
+    
+}
+#first>label{
+    font-size:15px;
+}
+#second>label{
+    font-size:15px;
+}
+header>#first{
+    position: relative;
+    left: 900px;
+    top: -68px;
+}
+header>#second{
+    position: relative;
+    left: 680px;
+    top: -134px;
+}
+button{
+    position: relative;
+    left: 1150px;
+    color: white;
+    background-color: darkblue;
+}
+#back{
+    color: blue;
+}
+#total{
+    position: relative;
+    left: 750px;
+
+}
+body{
+    background-color: coral;
+}
+label>span{
+    color: blue;
+}
+ #lastbutton{
+    color: white;
+    background-color: darkgreen;
+    width: 200px;
+    top: 60px;
+    left: -400px;
+ }
+ div>img{
+    width: 600px;
+    height:300px;
+    position: relative;
+    top: -300px;      
+ }

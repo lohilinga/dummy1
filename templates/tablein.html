@@ -1,0 +1,37 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>time table</title>
+   <link rel="stylesheet" href="{% static 'css/tablein.css' %}">
+</head>
+<body>
+<table border="2px" id="a">
+    <tr>
+        <td>table 1</td>
+        <td>table1
+            <table border="2px" id="b">
+                <tr>
+                    <td>table 2</td>
+                    <td>table 2</td >
+                </tr>
+                <tr>
+                    <td>table 2</td>
+                    <td>table 2</td>
+                </tr>
+            </table>
+        </td>
+        <tr>
+            <th>this contains a list
+               <ul>
+                 <li>item 1</li>
+                <li>item 2</li>
+            </ul>
+        </th>
+      <th>Table -1</th>
+    </tr>
+</table>
+    
+</body>
+</html>

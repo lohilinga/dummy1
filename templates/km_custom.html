@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>KM Custom Form</title>
+    <link rel="stylesheet" href="{% static 'css/km_custom.css'   %}">
+
+</head>
+<body>
+        <h1 class="center">KM Custom HTML From Example Using AppleScript</h1>
+        <h4 class="center">(By JMchael TX)</h4>
+    <form>
+        <table border="2px" id="tab">
+        <tr>
+        <th class="left"> <label >Name :</label></th>
+        <td ><input type="text"></td>
+    </tr>
+    <tr>
+        <th class="left"><label  >Email :</label></th>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <th class="left"><label> Password</label></th>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <th class="left">Approval Requried : <br> <h5> Click on the button or text to check /uncheck</h5> </th><br>  
+        
+        <td><input type="checkbox"> Do You Approve?</td>
+    </tr>
+    <tr>
+        <th class="left">Pick Your Favorite: <br> <h5>Click On Button Or Texxt To Select</h5>
+        </th>
+        <td>
+            <input type="radio" name="r1"> Choice  A</input> <br>
+            <input type="radio" name="r1"> Choice  B</input><br>
+            <input type="radio" name="r1"> Choice  C</input>
+        </td>
+    </tr>
+    <tr>
+        <th class="left"> <label >Popup Menu :</label></th>
+        <td> 
+            <select>                                                                                                    
+            <option> --Select--</option>
+            <option >Browser</option>
+            <option >Netflix</option>
+            <option >Browser</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <th class="left">list <h5>Seltup Option <br>. Number Of Rws to display <br>
+        . Allow Multi-Sellect</h5></th>
+        <td>
+            <textarea cols="30" rows="10">California--CA 
+                                        Coloradio--CO 
+                                        Connecticut--CN 
+                                        Daliformia--DA 
+                                        Doloradio--DO
+
+            </textarea> 
+        </td>
+    </tr>
+    <tr>
+        <th class="left"><label> Fielid Ignored by KM</label></th>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <th class="left">Text Area</th>
+        <td>
+        <textarea  cols="90" rows="10">Now Is The Time For All Good Means to  come the and of their Country  </textarea>
+    </td>
+    </tr>
+
+</table>
+    </form>
+    <br>
+    <br>
+    <button class="a">save</button>
+    <button class="b"> Cancal</button>
+    <button class="c">Resize</button>
+    
+</body>
+</html>

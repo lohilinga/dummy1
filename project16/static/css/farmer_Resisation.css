@@ -1,0 +1,29 @@
+#k{
+    background: linear-gradient(green,red,yellow);
+    padding: 50px;
+}
+#o{
+    width: 800px;
+    height: 150px;
+    margin-left: 230px;
+}
+.w{
+    margin-top: -150px;
+    margin-left: 250px;
+
+}
+.p{
+    width: 250px;
+    height: 268px;
+    margin-top:-400px;
+}
+.submit{
+margin-left: 650px;
+color: blue;
+
+}
+#lion{
+    width: 200px;
+    height: 150px;
+    margin-left: 256px;
+}

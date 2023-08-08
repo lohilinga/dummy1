@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>HAPPY BORN DAY  </title>
+    <link rel="stylesheet" href="{static 'css/Happy_born.css'}">    
+    <style>
+        #s:hover{
+            background: linear-gradient(red,white,green);
+            border-radius:10px ;
+            width: 200px;
+            height: 50px;
+            position: relative;
+            animation: abc 20s linear 0s infinite none;
+            cursor: pointer;
+            text-align: center;
+        }
+        @keyframes abc{
+            0%{
+                top:0px;
+                left: 0px;
+            }
+            50%{
+                top:0px;
+                left: 200px;
+            }
+            
+        }
+        div>img{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin-top: 0px;
+            margin-left: 200px;
+           
+            animation-name: image;
+            animation-duration:30s;
+            animation-delay: 12s;
+            animation-timing-function:linear;
+        
+        }
+        @keyframes image{
+            0%{
+                top: 0px;
+                left: 0px;
+        
+            }
+            50%{
+                top: 350px;
+                left: 0px;
+                position: static;
+                
+            }
+        
+        }
+    </style>
+
+</head>
+<body>
+    <div id="s">
+            HAPPY BORN DAY MY DEAR LOVELY SISTER
+    </div>
+    <div><img src="{% static 'images/mysis.jpg' %}"></div>
+</body>
+</html>

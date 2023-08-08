@@ -1,0 +1,32 @@
+#farmer{
+    width: 150px;
+    height: 150px;
+    margin-left: 1100px;
+}
+#simble{
+    width: 150px;
+    height: 150px;
+    margin-top:-137px;
+}
+.a{
+ margin-left: 315px;
+ margin-top: -120px;
+}
+.home{
+  
+  margin-left: 825px;
+}
+
+.block{
+  
+    margin-left: 500px;
+}
+.king{
+  background-color:green;
+  margin-top: 20px;
+  margin-left: 500px;
+  width: 250px; 
+}
+#text{
+  color: white;
+}
